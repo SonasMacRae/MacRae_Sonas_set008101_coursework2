@@ -1,0 +1,17 @@
+doctype html
+html
+  head
+  ul
+    li
+      a.active(href='/') Home
+    li
+      a(href='/fetch') Post
+    li
+      a(href='#conta') Contact
+    li
+      a(href='/about') About the author
+
+    title= title
+    link(rel='stylesheet', href='/stylesheets/style.css')
+  body
+    block content
